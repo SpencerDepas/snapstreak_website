@@ -29,12 +29,47 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
        cursor: pointer;
 }
 
+
+@media (max-width: 600px) {
+  .playbutton {
+       width: 60%;
+    }
+
+    .mytittle {
+    color: white;
+    width: 280px;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    line-height: 60px;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+
+    .cta{
+       width: 70%;
+       font-size: 20px;
+    }
+}
+@media (min-width: 481px) {
+ 
+.playbutton { 
+  max-width: 40% ;
+}
+
+}
+
+.playbutton {
+       width: 200px;
+    }
+
+
 .cta {
     margin-bottom: 75px;
     margin-top: 20px;
     color: black;
     border: none;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     border-radius: 25px;
     padding-right: 30px;
@@ -43,11 +78,14 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 
 }
 
+
 .cta:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #36d1ff;
     border-color: #36d1ff; /*set the color you want here*/
 }
+
+
 
 .column {
   margin-top: 50px;
@@ -63,8 +101,7 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
     padding-bottom: 8px;
     margin-top: 60px;
     margin-bottom: 25px;
-    margin-right: 60px;
-    margin-left: 60px;
+    
     line-height: 60px;
 
 }
